@@ -13,6 +13,7 @@
 		3FF20A3D2C764A9D0074BE4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF20A3C2C764A9D0074BE4D /* Preview Assets.xcassets */; };
 		3FF20A442C7650C80074BE4D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A432C7650C80074BE4D /* CardView.swift */; };
 		3FF20A472C7656A70074BE4D /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A462C7656A70074BE4D /* CustomBackgroundView.swift */; };
+		3FF20A4A2C765EC70074BE4D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A492C765EC70074BE4D /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3FF20A3C2C764A9D0074BE4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FF20A432C7650C80074BE4D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3FF20A462C7656A70074BE4D /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		3FF20A492C765EC70074BE4D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		3FF20A342C764A9A0074BE4D /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				3FF20A482C765EAC0074BE4D /* Utility */,
 				3FF20A352C764A9A0074BE4D /* HikeApp.swift */,
 				3FF20A372C764A9A0074BE4D /* ContentView.swift */,
 				3FF20A452C7652B20074BE4D /* Component */,
@@ -79,6 +82,14 @@
 				3FF20A462C7656A70074BE4D /* CustomBackgroundView.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		3FF20A482C765EAC0074BE4D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3FF20A492C765EC70074BE4D /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				3FF20A442C7650C80074BE4D /* CardView.swift in Sources */,
 				3FF20A362C764A9A0074BE4D /* HikeApp.swift in Sources */,
 				3FF20A472C7656A70074BE4D /* CustomBackgroundView.swift in Sources */,
+				3FF20A4A2C765EC70074BE4D /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
