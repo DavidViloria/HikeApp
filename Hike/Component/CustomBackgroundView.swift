@@ -9,10 +9,20 @@ import SwiftUI
 
 struct CustomBackgroundView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            //MARK: - 3. CEPTH
+            
+            //MARK: - 2. LIGHT
+            
+            //MARK: - 1. SURFACE
+            
+            LinearGradient(colors: [Color("ColorGreenLight"), Color("ColorGreenMedium")], startPoint: .bottom, endPoint: .top)
+                .cornerRadius(40)
+        }
     }
 }
 
 #Preview {
     CustomBackgroundView()
+        .padding()
 }
