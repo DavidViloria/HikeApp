@@ -41,7 +41,7 @@ struct CardView: View {
                     
                 }
                 .padding(.horizontal,30)
-                //Main Content
+                //MARK: - Main Content
                 ZStack {
                     CustomCircleView()
                     Image("image-\(imageNumber)")
