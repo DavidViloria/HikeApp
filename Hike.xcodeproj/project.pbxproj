@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F4094A42C78F6B700C34295 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4094A32C78F6B700C34295 /* GradientButtonStyle.swift */; };
+		3F4094A62C7947E800C34295 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4094A52C7947E800C34295 /* CustomCircleView.swift */; };
 		3FB0F0792C78516E00E914A9 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0F0782C78516E00E914A9 /* CustomButtonView.swift */; };
 		3FF20A362C764A9A0074BE4D /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A352C764A9A0074BE4D /* HikeApp.swift */; };
 		3FF20A382C764A9A0074BE4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A372C764A9A0074BE4D /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		3F4094A32C78F6B700C34295 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		3F4094A52C7947E800C34295 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		3FB0F0782C78516E00E914A9 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		3FF20A322C764A9A0074BE4D /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF20A352C764A9A0074BE4D /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		3FF20A452C7652B20074BE4D /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				3F4094A52C7947E800C34295 /* CustomCircleView.swift */,
 				3FF20A432C7650C80074BE4D /* CardView.swift */,
 				3FF20A462C7656A70074BE4D /* CustomBackgroundView.swift */,
 				3FB0F0782C78516E00E914A9 /* CustomButtonView.swift */,
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF20A382C764A9A0074BE4D /* ContentView.swift in Sources */,
+				3F4094A62C7947E800C34295 /* CustomCircleView.swift in Sources */,
 				3FF20A442C7650C80074BE4D /* CardView.swift in Sources */,
 				3FF20A362C764A9A0074BE4D /* HikeApp.swift in Sources */,
 				3FB0F0792C78516E00E914A9 /* CustomButtonView.swift in Sources */,

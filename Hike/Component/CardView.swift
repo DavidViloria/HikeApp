@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct CardView: View {
+    
+    @State private var imageNumber: Int = 1
+    @State private var randomNumber: Int = 1
+    
     var body: some View {
         ZStack {
             CustomBackgroundView()
@@ -22,7 +26,7 @@ struct CardView: View {
                                 LinearGradient(colors: [.customGrayLight, .customGrayMediumm],
                                                startPoint: .bottom,
                                                endPoint: .top)
-                        )
+                            )
                         Spacer()
                         Button(action: {
                             
@@ -34,22 +38,20 @@ struct CardView: View {
                         .multilineTextAlignment(.leading)
                         .italic()
                         .foregroundStyle(.colorGrayMedium)
-                        
+                    
                 }
                 .padding(.horizontal,30)
                 //Main Content
                 ZStack {
-                    Circle()
-                        .fill(LinearGradient(colors: [Color("ColorIndigoMedium"), Color("ColorSalmonLight")], startPoint: .topTrailing, endPoint: .bottomLeading))
-                        .frame(width: 256, height: 256)
-                    Image("image-1")
+                    CustomCircleView()
+                    Image("image-\(imageNumber)")
                         .resizable()
                         .scaledToFit()
+                        .animation(.easeOut(duration: 1), value: imageNumber)
                 }
                 //Footer
-                
                 Button {
-                    
+                    randomImage()
                 } label: {
                     Text("Explore more")
                         .font(.title2)
@@ -59,16 +61,18 @@ struct CardView: View {
                         )
                         .shadow(color: .black.opacity(0.5), radius: 0.5, x: 1, y: 2)
                     
-                }
-                .padding(.vertical)
-                .padding(.horizontal,30)
-                .background(
-                    LinearGradient(colors: [.customGrayLight, .colorGrayMedium], startPoint: .top, endPoint: .bottom)
-                )
-                .cornerRadius(40)
+                }.buttonStyle(GradientButton())
             }
         }
         .frame(width: 320, height: 570)
+    }
+    
+    func randomImage(){
+        repeat{
+            randomNumber = Int.random(in: 1...5)
+            
+        } while randomNumber == imageNumber
+        imageNumber = randomNumber
     }
 }
 
