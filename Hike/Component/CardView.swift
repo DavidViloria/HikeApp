@@ -46,11 +46,29 @@ struct CardView: View {
                         .resizable()
                         .scaledToFit()
                 }
-                
                 //Footer
+                
+                Button {
+                    
+                } label: {
+                    Text("Explore more")
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(
+                            LinearGradient(colors: [.customGreenLight, .customGreenMedium], startPoint: .top, endPoint: .bottom)
+                        )
+                        .shadow(color: .black.opacity(0.5), radius: 0.5, x: 1, y: 2)
+                    
+                }
+                .padding(.vertical)
+                .padding(.horizontal,30)
+                .background(
+                    LinearGradient(colors: [.customGrayLight, .colorGrayMedium], startPoint: .top, endPoint: .bottom)
+                )
+                .cornerRadius(40)
             }
         }
-        .frame(width: 320, height: 520)
+        .frame(width: 320, height: 570)
     }
 }
 
