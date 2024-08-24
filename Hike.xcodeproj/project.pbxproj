@@ -10,6 +10,7 @@
 		3F4094A42C78F6B700C34295 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4094A32C78F6B700C34295 /* GradientButtonStyle.swift */; };
 		3F4094A62C7947E800C34295 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4094A52C7947E800C34295 /* CustomCircleView.swift */; };
 		3F4094A82C794C0F00C34295 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4094A72C794C0F00C34295 /* MotionAnimationView.swift */; };
+		3F4094AB2C795ADB00C34295 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4094AA2C795ADB00C34295 /* SettingsView.swift */; };
 		3FB0F0792C78516E00E914A9 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0F0782C78516E00E914A9 /* CustomButtonView.swift */; };
 		3FF20A362C764A9A0074BE4D /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A352C764A9A0074BE4D /* HikeApp.swift */; };
 		3FF20A382C764A9A0074BE4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A372C764A9A0074BE4D /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 		3F4094A32C78F6B700C34295 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		3F4094A52C7947E800C34295 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		3F4094A72C794C0F00C34295 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		3F4094AA2C795ADB00C34295 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3FB0F0782C78516E00E914A9 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		3FF20A322C764A9A0074BE4D /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF20A352C764A9A0074BE4D /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
@@ -46,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F4094A92C795AC500C34295 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3FF20A372C764A9A0074BE4D /* ContentView.swift */,
+				3F4094AA2C795ADB00C34295 /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		3FF20A292C764A9A0074BE4D = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +78,7 @@
 			children = (
 				3FF20A482C765EAC0074BE4D /* Utility */,
 				3FF20A352C764A9A0074BE4D /* HikeApp.swift */,
-				3FF20A372C764A9A0074BE4D /* ContentView.swift */,
+				3F4094A92C795AC500C34295 /* Screen */,
 				3FF20A452C7652B20074BE4D /* Component */,
 				3FF20A392C764A9D0074BE4D /* Assets.xcassets */,
 				3FF20A3B2C764A9D0074BE4D /* Preview Content */,
@@ -179,6 +190,7 @@
 				3FF20A442C7650C80074BE4D /* CardView.swift in Sources */,
 				3FF20A362C764A9A0074BE4D /* HikeApp.swift in Sources */,
 				3FB0F0792C78516E00E914A9 /* CustomButtonView.swift in Sources */,
+				3F4094AB2C795ADB00C34295 /* SettingsView.swift in Sources */,
 				3F4094A42C78F6B700C34295 /* GradientButtonStyle.swift in Sources */,
 				3F4094A82C794C0F00C34295 /* MotionAnimationView.swift in Sources */,
 				3FF20A472C7656A70074BE4D /* CustomBackgroundView.swift in Sources */,
