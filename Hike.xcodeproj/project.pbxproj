@@ -19,6 +19,7 @@
 		3FF20A442C7650C80074BE4D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A432C7650C80074BE4D /* CardView.swift */; };
 		3FF20A472C7656A70074BE4D /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A462C7656A70074BE4D /* CustomBackgroundView.swift */; };
 		3FF20A4A2C765EC70074BE4D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF20A492C765EC70074BE4D /* ColorExtension.swift */; };
+		3FF9EBD72C7A9996004AE3D4 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9EBD62C7A9996004AE3D4 /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3FF20A432C7650C80074BE4D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3FF20A462C7656A70074BE4D /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		3FF20A492C765EC70074BE4D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3FF9EBD62C7A9996004AE3D4 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3FF20A462C7656A70074BE4D /* CustomBackgroundView.swift */,
 				3FB0F0782C78516E00E914A9 /* CustomButtonView.swift */,
 				3F4094A72C794C0F00C34295 /* MotionAnimationView.swift */,
+				3FF9EBD62C7A9996004AE3D4 /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				3FF20A382C764A9A0074BE4D /* ContentView.swift in Sources */,
 				3F4094A62C7947E800C34295 /* CustomCircleView.swift in Sources */,
+				3FF9EBD72C7A9996004AE3D4 /* CustomListRowView.swift in Sources */,
 				3FF20A442C7650C80074BE4D /* CardView.swift in Sources */,
 				3FF20A362C764A9A0074BE4D /* HikeApp.swift in Sources */,
 				3FB0F0792C78516E00E914A9 /* CustomButtonView.swift in Sources */,

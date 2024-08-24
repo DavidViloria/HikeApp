@@ -63,24 +63,10 @@ struct SettingsView: View {
                 }
                     .padding(.vertical, 10)
             ){
-                LabeledContent {
-                    Text("Hike")
-                        .foregroundColor(.primary)
-                        .fontWeight(.heavy)
-                } label: {
-                    HStack {
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 8)
-                                .frame(width: 30, height: 30)
-                                .foregroundColor(.blue)
-                            Image(systemName: "apps.iphone")
-                                .foregroundColor(.white)
-                                .fontWeight(.semibold)
-
-                        }
-                        Text("Application")
-                    }
-                }
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "Hike", rowTintColor: .blue)
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "Hike", rowTintColor: .red)
+                CustomListRowView(rowLabel: "Application", rowIcon: "swift", rowContent: "swift", rowTintColor: .orange)
+                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "David Profile", rowlinkDestination: "https://www.linkedin.com/in/davidviloria/")
 
             }//End: of the Section ABOUT
         }//:List
