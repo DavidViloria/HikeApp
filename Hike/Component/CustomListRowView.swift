@@ -24,8 +24,8 @@ struct CustomListRowView: View {
                     .fontWeight(.heavy)
             } else if rowLinkLabel != nil && rowlinkDestination != nil{
                 Link(rowLinkLabel!, destination: URL(string: rowlinkDestination!)!)
-                    .foregroundColor(.pink)
                     .fontWeight(.heavy)
+                    .foregroundColor(rowTintColor)
             } else {
                 EmptyView()
             }
@@ -51,7 +51,7 @@ struct CustomListRowView: View {
         CustomListRowView(rowLabel: "Website",
                           rowIcon: "globe",
                           rowContent: "Jon doe",
-                          rowTintColor: .pink,
+                          rowTintColor: .blue,
                           rowLinkLabel: "mi",
                           rowlinkDestination: "https://www.linkedin.com/in/davidviloria/"
         )
