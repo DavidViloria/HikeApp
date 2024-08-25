@@ -128,7 +128,7 @@ struct SettingsView: View {
                 
                 CustomListRowView(rowLabel: "Document", rowIcon: "folder", rowContent: "Project Plan", rowTintColor: .orange)
                 
-                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "David Profile", rowlinkDestination: "https://www.linkedin.com/in/davidviloria/")
+                CustomListRowView(rowLabel: "LinkedIn", rowIcon: "brain.filled.head.profile", rowTintColor: .indigo, rowLinkLabel: "David Profile", rowlinkDestination: "https://www.linkedin.com/in/davidviloria/")
 
             }//End: of the Section ABOUT
         }//:List
